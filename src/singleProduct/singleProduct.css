@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /* height: 400px; */
+    justify-content: space-between;
+    /* border:3px solid black; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    
+
+}
+
+/* .imgCont{
+  
+
+
+} */
+.image{
+    height:200px;
+    width: 200px;
+    
+    object-fit: contain;
+}
+.titleCont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+.priceCont{
+    color:white;
+    background-color: rgb(99, 202, 202);
+    display: flex;
+    justify-content: center;
+
+}

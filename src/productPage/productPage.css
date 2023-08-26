@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+    height:100vh;
+    /* background-color: gray; */
+    margin-top: 80px;
+
+
+}
+
+.leftContainer{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    width:15%;
+    /* background-color: yellow; */
+    margin-top: 100px;
+    left:10px;
+    /* z-index: -1; */
+    background-color: rgb(80, 195, 195);
+    color:white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    
+    
+
+}
+.btnStar{
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+    
+  
+}
+.btnStar:hover{
+    background-color: rgb(80, 195, 195);
+    color: white;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.heading{
+    font-size: 50px;
+    margin-left: 300px;
+
+}
+
+.buttonBar{
+    color: rgb(45, 138, 138);
+    margin-left: 300px;
+
+}
+
+.productContainer{
+    /* margin-top: 2800px; */
+    display: grid;
+    margin-left: 300px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+}
+
+.filterhead{
+    font-size: 30px;
+}
+
+.noFoundContBig{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  height: 700px;
+    
+    
+    
+}
+.noFoundCont{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            
+
+}
+.backHome{
+    color: white;
+    background-color: rgb(80, 195, 195);
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
